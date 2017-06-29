@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(passport.initialize());
 
-mongoose.connect('mongodb://admin:naitreparents@ds038379.mlab.com:38379/evently');
+mongoose.connect('mongodb://xxx:xxx@ds038379.mlab.com:38379/evently');
 
 userAuth.seed();
 /*var e = events.seed()
